@@ -1,0 +1,24 @@
+<html>
+<body>
+	<div>
+		<ul>
+			<li><a href="/">home</a></li>
+			<li><a href="login">login</a></li>
+			<li><a href="signup">signup</a></li>
+			<li><a href="logout">logout</a></li>
+		</ul>
+	</div>
+	{% with messages = get_flashed_messages() %}
+	{% if messages %}
+	<div>
+		{% for message in messages %}
+		<p>{{ message }}</p>
+		{% endfor %}
+		{% endif %}
+		{% endwith %}
+	</div>
+	<div>
+		{% block content %} {% endblock %}
+	</div>
+</body>
+</html>
