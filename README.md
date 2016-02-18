@@ -1,5 +1,5 @@
 # flask-login
-A basic Flask template app that allows users to signup, login and logout.
+A basic Flask template app that allows users to signup, login and logout. There is no confirmation needed to create a new user account.
 
 # Requirements
 
