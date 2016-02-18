@@ -8,13 +8,16 @@ pip install -r requirements.txt
 ```
 
 # Setup
-First, you need to generate a secret key. Run ```python``` followed by:
+
+First, change ```config.py.example``` to ```config.py```.
+
+Second, you need to generate a secret key. Run ```python``` followed by:
 
 ```
 import os
 os.urandom(24)
 ```
-This will give you a key that you can copy to SECRET_KEY and WTF_CSRF_SECRET KEY in ```config.py```.
+Copy the output to SECRET_KEY and WTF_CSRF_SECRET KEY in ```config.py```.
 
 # Usage
 You can run the application by using:
