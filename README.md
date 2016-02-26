@@ -9,7 +9,10 @@ pip install -r requirements.txt
 
 # Setup
 
-First, rename ```config.py.example``` to ```config.py```.
+First, rename ```config.py.example``` to ```config.py```:
+```
+mv config.py.example config.py
+```
 
 Second, you need to generate a secret key. Run ```python``` followed by:
 
