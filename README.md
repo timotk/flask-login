@@ -20,8 +20,10 @@ os.urandom(24)
 Copy the output to SECRET_KEY and WTF_CSRF_SECRET KEY in ```config.py```.
 
 # Usage
-First, create your database
-```python create_db.py```
+First, create your database:
+```
+python create_db.py
+```
 
 Then, you can run the application by using:
 ```
