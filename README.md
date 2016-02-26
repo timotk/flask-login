@@ -23,9 +23,9 @@ Copy the output to SECRET_KEY and WTF_CSRF_SECRET KEY in ```config.py```.
 First, create your database
 ```python create_db.py```
 
-Then,you can run the application by using:
+Then, you can run the application by using:
 ```
-sudo ./start.sh
+python run.py
 ```
 
 Then open a webbrowser and go to http://127.0.0.1:5000
